@@ -1,0 +1,83 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+.cabecalho {	
+	display:flex;
+	justify-content: space-between;
+	background-color: #d0fcb4;
+/*	height: 56px;
+	padding: 10px 5px;
+	margin: 0px;
+	*/
+}
+
+.barra {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	background-color: #b4c4ff;
+	font-size: 25px;	
+	align-items: center;
+	border-radius: 20px 0 0 20px;
+	font-family: "BenchNine", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+.barra ul {
+	display: flex;
+	gap: 2rem;	
+} 
+
+.barra li {
+	list-style-type: none;
+}
+
+.barra ul a {
+	text-decoration: none;
+	color: black;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	min-width: 300px;
+	font-family: "Carattere", cursive;
+	font-weight: 400;
+	font-size: 25px;
+	font-style: normal;
+}
+
+#capa {
+	display: flex;
+	justify-content: center;
+	height: 500px;
+	width:auto;
+	background-image: url("img/gravida-com-doula.jpg");
+	background-repeat: no-repeat;
+	
+}
+
+footer {
+	background-color: #d0fcb4;
+	display: flex;
+	justify-content: center;
+}
+
+/* .w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0} */
+/* .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{position:static;float:left}*/
+/* .w3-bar .w3-button{white-space:normal} */
