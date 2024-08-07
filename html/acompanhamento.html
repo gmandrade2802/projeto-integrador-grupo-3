@@ -1,32 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Integrador</title>
-</head>
-<body>
-    <nav>
-        <header>
-            <a href="index.html">
-              <img src="/src/img/eurotour-logo-cor.png" alt="logo eurotour">Parto Assistido</a>
-              <ul>
-                <li><a href="/doulas.html">Doulas</a></li>
-                <li><a href="/beneficios.html">Benefícios</a></li>
-                <li><a href="/acompanhamento.html">Acompanhamento</a></li>
-                <li><a href="/guia_puerpera.html">Guia Puérpera<a></li>
-              </ul>
-    </nav>
-<main>
-   
-</main>
-<footer>
-    <span>Parto Assistido(c)</span>
-    <ul>
-      <li>Facebook</li>
-      <li>Instagram</li>
-      <li>Linkedin</li>
-    </ul>
-</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acompanhamento</title>
+    <link rel="stylesheet" href="css/style-beneficios.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Great+Vibes&display=swap");
+    </style>
+    <script src="script/script.js" defer></script>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <section class="cabecalho-h1">
+        <div>
+          <a href="index.html"><span class="span-logo"><img src="img/Blacklogo.png" alt="logo" />Parto Assistido</span></a>
+        </div>
+        <div class="cabecalho-h1-navClass">
+          <nav>
+            <ul type="circle">
+              <li><a href="doulas.html" >Doulas</a></li>
+              <li>
+                <a href="beneficios.html" >Benefícios</a>
+              </li>
+              <li>
+                <a href="acompanhamento.html"                   >Acompanhamento</a
+                >
+              </li>
+              <li>
+                <a href="guiapuerpera.html"                   >Guia Puérpera</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
+
+    <main class="main">
+      <section class="figura2" id="teste2">
+        <h2>Acompanhamento</h2>
+      </section>
+      <div class="faq-container">
+        <h1>Tire suas dúvidas.</h1>
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">O que é uma doula e qual é o seu papel durante o parto?</div>
+            <div class="faq-answer">Uma doula é uma profissional treinada que oferece suporte físico, emocional e informativo à mãe antes, durante e após o parto. Ela não realiza procedimentos médicos, mas ajuda a mãe a ter uma experiência de parto mais confortável e positiva, oferecendo técnicas de alívio da dor, encorajamento e apoio contínuo.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">Quais são os benefícios de um parto em casa?</div>
+            <div class="faq-answer">Os benefícios de um parto em casa incluem um ambiente familiar e confortável, maior controle sobre o processo de parto, menos intervenções médicas desnecessárias, e a possibilidade de ter um parto mais personalizado e íntimo. Muitas mulheres relatam sentir-se mais relaxadas e menos estressadas em casa.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleFaq(this)">Quais são os riscos de um parto em casa?</div>
+            <div class="faq-answer">Os riscos de um parto em casa podem incluir a falta de acesso imediato a cuidados médicos de emergência se surgirem complicações. É importante ter um plano de transferência para um hospital próximo caso ocorra qualquer problema durante o parto.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">Como posso saber se sou uma boa candidata para um parto em casa?</div>
+          <div class="faq-answer">Mulheres com gestações de baixo risco são geralmente boas candidatas para partos em casa. Isso significa que você deve estar saudável, ter uma gravidez sem complicações e estar esperando um único bebê que esteja em posição cefálica. É essencial consultar seu médico ou parteira para avaliar se o parto em casa é seguro para você.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">Quem deve estar presente durante o parto em casa?</div>
+          <div class="faq-answer">Além da doula, é recomendável ter uma parteira certificada presente para fornecer cuidados médicos. Alguns pais também escolhem ter familiares ou amigos próximos para apoio adicional. Certifique-se de que todos estejam confortáveis e que respeitem seus desejos durante o parto.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">Quais são os custos associados a um parto em casa com uma doula?</div>
+          <div class="faq-answer">Os custos podem variar amplamente dependendo da localização e dos serviços prestados. Geralmente, você pagará pelas taxas da doula, bem como por quaisquer suprimentos adicionais necessários para o parto em casa. É importante discutir todos os custos antecipadamente com os profissionais envolvidos.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">Como posso preparar minha casa para um parto domiciliar?</div>
+          <div class="faq-answer">Preparar sua casa para um parto domiciliar envolve escolher um local confortável e limpo para o nascimento, ter todos os suprimentos necessários (como toalhas, lençóis, uma piscina de parto se desejado, e kit de primeiros socorros), e criar um ambiente tranquilo e acolhedor. Sua doula e parteira podem fornecer uma lista detalhada de suprimentos necessários.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">O que devo fazer em caso de emergência durante um parto em casa?</div>
+          <div class="faq-answer">É essencial ter um plano de emergência bem definido. Isso inclui saber para qual hospital você será transferida, como chegar lá rapidamente, e ter todos os números de contato de emergência à mão. A parteira geralmente está preparada para lidar com complicações menores, mas em caso de situações graves, a transferência para um hospital é necessária.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">Posso ter um parto medicado em casa?</div>
+          <div class="faq-answer">A maioria dos partos domiciliares não inclui a administração de medicamentos para alívio da dor, como a epidural, pois esses procedimentos requerem um ambiente hospitalar. No entanto, a doula pode oferecer várias técnicas naturais de alívio da dor, como massagens, posições de parto e banhos quentes.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question" onclick="toggleFaq(this)">Como escolher a doula e a parteira certas para mim?</div>
+          <div class="faq-answer">Escolher a doula e a parteira certas envolve pesquisar suas qualificações, experiência, e filosofia de parto. É importante fazer entrevistas e consultas com várias profissionais para encontrar aquelas com quem você se sinta confortável e confiante. Peça recomendações, leia avaliações e verifique suas certificações.</div>
+        </div>
+    </div>
+    </main>
+    <hr />
+    <footer class="rodape">
+      <span class="span-rodape"
+        ><img src="img/Blacklogo.png" alt="" />Parto Assitido</span>
+    </footer>
+  </body>
 </html>
