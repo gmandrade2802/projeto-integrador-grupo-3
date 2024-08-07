@@ -1,0 +1,239 @@
+* {
+  font-family: "BenchNine", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+.cabecalho {
+  background-color: #d0fcb4;
+  width: 100%;
+}
+
+.cabecalho .span-logo {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho-h1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cabecalho-h1-navClass {
+  display: flex;
+  flex-direction: row-reverse;
+
+  background-color: #b4c4ff;
+
+  padding-right: 2%;
+  border-radius: 20px 0 0 20px;
+  width: 50%;
+
+  font-size: 22px;
+  align-items: center;
+}
+
+.cabecalho nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.cabecalho nav li {
+  list-style-type: none;
+}
+
+
+#imagem-titulo {
+  background-image: url("../img/doulas.png");
+  height: 500px;
+  font-size: 46px;
+  color: rgb(254, 251, 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%; /* Ajuste conforme necessário */
+  margin: 0 auto; /* Centraliza os cards no contêiner pai */
+}
+
+.card {
+  background-color: #d0fcb4;
+  border-radius: 6px;
+  width: 250px; /* Ajuste a largura do card */
+  height: 300px; /* Ajuste a altura do card */
+  box-shadow: 0px 10px 5px #4b5d6a;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 20px; /* Espaçamento entre os cards */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 100px; /* Ajuste conforme necessário */
+  margin-bottom: 100px; /* Ajuste conforme necessário */
+}
+
+.card img {
+  border-radius: 5px;
+  width: 150px;
+  height: 180px;
+}
+
+.card-body {
+  padding: 0;
+}
+
+/* Estilos para o texto adicional dentro do card */
+.card-text {
+  margin-top: 5px; /* Espaçamento acima do texto */
+  margin-bottom: 0px; /* Espaçamento abaixo do texto, antes do botão */
+  font-size: 18px; /* Tamanho da fonte */
+  color: #333; /* Cor do texto, ajuste conforme necessário */
+  line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+  font-family: "BenchNine", sans-serif;
+}
+
+.btn-primary {
+  background-color: #9cacec;
+  border: none;
+  color: #fff;
+  padding: 9px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.5s ease;
+
+
+}
+
+.botao:hover {
+  background-color: #4b5d6a;
+}
+
+/* 
+<---Codigo caso necessario--->
+main {
+  flex: 1; /* Faz com que o conteúdo principal ocupe o espaço restante 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+} */
+
+/* 
+--------- MEU CODIGO ----------
+
+#imagem-titulo {
+  background-image: url("../img/doulas.png");
+  height: 500px;
+  font-size: 46px;
+  color: rgb(254, 251, 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color:#d0fcb4;;
+  border-radius: 6px;
+  /*  justify-content: center;
+  width: 10px;
+  margin-top: 34px;
+  margin-bottom: 10px;
+  padding: 0rem;
+  box-shadow: 0px 10px 5px #4b5d6a;
+  text-align: center;
+  font-family: 'Poppins';
+
+.card-body {
+  padding: 0;
+}
+.card img {
+  border-radius: 5px;
+  width: 200px;
+  height: 150px ;
+  margin-left: 0rem;
+  margin-top: 17px;
+  margin-bottom: 0px;
+  all: center
+}
+.card-title {
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+.btn-primary {
+      background-color: #b4c4ff;
+      border: none;
+      color: #fff;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.5s ease;
+}
+  .botao:hover{
+      background-color: #07f30f;
+}
+
+ /* background-color: rgb(195, 223, 198); /*rgb(249, 242, 242);
+  border-radius: 6px;
+  justify-content: center;
+  width: 21rem;
+  gap: 1rem;
+  margin-bottom: 15px;
+  padding: 0rem;
+  box-shadow: 0px 10px 5px #4b5d6a;
+  text-align: center;
+  font-family: 'Poppins';
+} 
+
+--------- MEU CODIGO ----------
+*/
+
+.rodape {
+  background-color: #d0fcb4;
+  display: flex;
+  justify-content: center;
+}
+.span-rodape {
+  display: flex;
+  align-items: center;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+}
