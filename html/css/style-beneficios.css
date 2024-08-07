@@ -341,3 +341,34 @@ main {
   line-height: 1.6;
   font-size: 20px;
 }
+
+.fotodoula {
+  position: relative;
+}
+
+.fotodoula img {
+  width: 100%;
+  height: auto;
+  max-width: 242px;
+  max-height: 242px;
+  display: block;
+}
+
+.fotodoula span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+  background-color: #b4c4ff;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  border-radius: 4px;
+}
+
+.fotodoula:hover span {
+  opacity: 1;
+  border-radius: 4px;
+}
