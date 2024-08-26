@@ -1,91 +1,129 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doulas</title>
+    <link rel="stylesheet" href="./css/doulas.css" />
+    <script src="scriptDoula.js" defer></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Great+Vibes&display=swap");
+    </style>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Doulas</title>
-  <link rel="stylesheet" href="./css/doulas.css" />
-  <script src="script.js" defer></script>
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Great+Vibes&display=swap");
-  </style>
-</head>
-
-<body>
-  <header class="cabecalho">
-    <section class="cabecalho-h1">
-      <div>
-        <span class="span-logo"><img src="img/Blacklogo.png" alt="logo" />Parto Assistido</span>
-      </div>
-      <div class="cabecalho-h1-navClass">
-        <nav>
-          <ul type="circle">
-            <li><a href="/html/doulas.html" target="_blank">Doulas</a></li>
-            <li>
-              <a href="/html/beneficios.html" target="_blank">Benefícios</a>
-            </li>
-            <li>
-              <a href="/html/acompanhamento.html" target="_blank">Acompanhamento</a>
-            </li>
-            <li>
-              <a href="/html/guiapuerpera.html" target="_blank">Guia Puérpera</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </section>
-  </header>
-  <main class="main">
-    <h2 class="figura" id="imagem-titulo">Doulas</h2>
-    <div id="card">
-      <div class="card-container">
-        <div class="card">
-          <img src="/img/doula1.png" alt="Imagem 1">
-          <div class="card-body">
-            <p class="card-text">Doula: Carla Ribeiro: "Experimente o conforto e a confiança de ter uma doula dedicada
-              ao seu lado. Faremos deste momento um capítulo de tranquilidade."</p>
-            <a href="#" class="btn-primary botao" onclick="mostrarCurriculo('curriculo1', event)">Ver currículo</a>
-            <div id="curriculo1" class="curriculo">
-              <h3>Carla Ribeiro</h3>
-              <p>Formação em Enfermagem com 8 anos de experiência em apoio a gestantes. Especializada em parto
-                humanizado e cuidados pós-nascimento.</p>
+  <body>
+    <header class="cabecalho">
+      <section class="cabecalho-h1">
+        <div>
+          <span class="span-logo"
+            ><img src="img/Blacklogo.png" alt="logo" />Parto Assistido</span
+          >
+        </div>
+        <div class="cabecalho-h1-navClass">
+          <nav>
+            <ul type="circle">
+              <li><a href="/html/doulas.html" target="_blank">Doulas</a></li>
+              <li>
+                <a href="/html/beneficios.html" target="_blank">Benefícios</a>
+              </li>
+              <li>
+                <a href="/html/acompanhamento.html" target="_blank"
+                  >Acompanhamento</a
+                >
+              </li>
+              <li>
+                <a href="/html/guiapuerpera.html" target="_blank"
+                  >Guia Puérpera</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main class="main">
+      <h2 class="figura" id="imagem-titulo">Doulas</h2>
+      <div id="card">
+        <div class="card-container">
+          <div class="card">
+            <img src="/img/doula1.png" alt="Imagem 1" />
+            <div class="card-body">
+              <p class="card-text">
+                Doula: Carla Ribeiro: "Experimente o conforto e a confiança de
+                ter uma doula dedicada ao seu lado. Faremos deste momento um
+                capítulo de tranquilidade."
+              </p>
+              <a
+                href="#"
+                class="btn-primary botao"
+                onclick="mostrarCurriculo('curriculo1', event)"
+                >Ver currículo</a
+              >
+              <div id="curriculo1" class="curriculo">
+                <h3>Carla Ribeiro</h3>
+                <p>
+                  Formação em Enfermagem com 8 anos de experiência em apoio a
+                  gestantes. Especializada em parto humanizado e cuidados
+                  pós-nascimento.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/img/doula2.png" alt="Imagem 2" />
+            <div class="card-body">
+              <p class="card-text">
+                Doula: Laura Montino. "Criando um ambiente de tranquilidade para
+                você e seu bebê. Juntas, vamos tornar o seu parto uma
+                celebração."
+              </p>
+              <a
+                href="#"
+                class="btn-primary botao"
+                onclick="mostrarCurriculo('curriculo2', event)"
+                >Ver currículo</a
+              >
+              <div id="curriculo2" class="curriculo">
+                <h3>Laura Montino</h3>
+                <p>
+                  Graduada em Psicologia e certificada como Doula. Experiência
+                  em suporte emocional e físico durante o parto, focando no
+                  bem-estar da mãe e do bebê.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="/img/doula3.png" alt="Imagem 3" />
+            <div class="card-body">
+              <p class="card-text">
+                Doula: Stephany Ferreira. "Transforme seu parto em uma
+                experiência inesquecível com apoio personalizado e carinho."
+              </p>
+              <a
+                href="#"
+                class="btn-primary botao"
+                onclick="mostrarCurriculo('curriculo3', event)"
+                >Ver currículo</a
+              >
+              <div id="curriculo3" class="curriculo">
+                <h3>Stephany Ferreira</h3>
+                <p>
+                  Doula com formação em Terapias Holísticas e experiência em
+                  partos domiciliares e hospitalares. Focada em técnicas de
+                  relaxamento e suporte contínuo.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card">
-          <img src="/img/doula2.png" alt="Imagem 2">
-          <div class="card-body">
-            <p class="card-text">Doula: Laura Montino. "Criando um ambiente de tranquilidade para você e seu bebê.
-              Juntas, vamos tornar o seu parto uma celebração."</p>
-            <a href="#" class="btn-primary botao" onclick="mostrarCurriculo('curriculo2', event)">Ver currículo</a>
-            <div id="curriculo2" class="curriculo">
-              <h3>Laura Montino</h3>
-              <p>Graduada em Psicologia e certificada como Doula. Experiência em suporte emocional e físico durante o
-                parto, focando no bem-estar da mãe e do bebê.</p>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img src="/img/doula3.png" alt="Imagem 3">
-          <div class="card-body">
-            <p class="card-text">Doula: Stephany Ferreira. "Transforme seu parto em uma experiência inesquecível com
-              apoio personalizado e carinho."</p>
-            <a href="#" class="btn-primary botao" onclick="mostrarCurriculo('curriculo3', event)">Ver currículo</a>
-            <div id="curriculo3" class="curriculo">
-              <h3>Stephany Ferreira</h3>
-              <p>Doula com formação em Terapias Holísticas e experiência em partos domiciliares e hospitalares. Focada
-                em técnicas de relaxamento e suporte contínuo.</p>
-            </div>
-          </div>
-        </div>
       </div>
-    </div>
-  </main>
-  <hr />
-  <footer class="rodape">
-    <span class="span-rodape"><img src="img/Blacklogo.png" alt="" />Parto Assitido</span>
-  </footer>
-</body>
-
+    </main>
+    <hr />
+    <footer class="rodape">
+      <span class="span-rodape"
+        ><img src="img/Blacklogo.png" alt="" />Parto Assitido</span
+      >
+    </footer>
+  </body>
 </html>
