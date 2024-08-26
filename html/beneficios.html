@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Benefícios</title>
     <link rel="stylesheet" href="/css/style-beneficios.css" />
+
     <style>
       @import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Great+Vibes&display=swap");
     </style>
@@ -328,18 +329,32 @@
       <section class="sessao">
         <div class="formulario">
           <h3>Envie sua dúvida</h3>
-          <form action="enviar-duvida" method="post" class="formulario-div">
+          <form
+            id="duvidaForm"
+            action="enviar-duvida"
+            method="post"
+            class="formulario-div"
+          >
             <div class="formulario-nome">
               <label for="nome">Nome</label>
-              <input type="text" id="nome" name="nome" required />
+              <input type="text" id="nome" name="nome" />
+              <div id="nomeError" class="error">
+                Por favor, insira seu nome.
+              </div>
             </div>
             <div class="formulario-email">
               <label for="email">Email</label>
-              <input type="email" id="email" name="email" required />
+              <input type="email" id="email" name="email" />
+              <div id="emailError" class="error">
+                Por favor, insira um e-mail válido.
+              </div>
             </div>
             <div class="formulario-duvida">
               <label for="duvida">Sua dúvida:</label>
-              <textarea name="duvida" id="duvida" required></textarea>
+              <textarea name="duvida" id="duvida"></textarea>
+              <div id="duvidaError" class="error">
+                Por favor, insira sua dúvida.
+              </div>
             </div>
             <button type="submit" class="botao">Enviar</button>
           </form>
@@ -354,3 +369,4 @@
     </footer>
   </body>
 </html>
+<script type="text/javascript" src="script/scriptValidacao.js"></script>
